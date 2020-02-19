@@ -10,7 +10,7 @@ np.zeros(5)
 print(np.zeros(5))
 
 a = np.zeros((3,4))
-a
+
 
 print(a.shape)
 
@@ -25,4 +25,13 @@ imgArray=mpimg.imread('plane.jpg')
 plt.imshow(imgArray, interpolation='nearest')
 plt.show()
 
-print(imgArray)
+#print(imgArray)
+np.zeros((2,3,4))
+
+type(np.zeros((3,4)))
+
+print (np.ones((3,4)))
+
+
+np.full((3,4), np.pi)
+np.array([[1,2,3,4], [10, 20, 30, 40]])
